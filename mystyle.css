@@ -1,0 +1,20 @@
+.abc{
+    font-size: smaller;
+    color: blue !important;
+    
+}
+
+.xyz{
+    color: red;
+    background-color:yellow;
+    width: fit-content;
+   
+}
+
+#myid{
+   
+    color: cyan;
+    background-color: dimgrey;
+    width: fit-content;
+
+}
