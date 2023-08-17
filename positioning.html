@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                /* width: 100px;
+                height: 100px;
+             */
+             margin: 1px;
+            }
+            .big{
+                background-color:brown;
+                width: 300px;
+                height: 300px;
+                position:relative;
+                margin: auto;
+          
+            }
+            .small{
+                background-color:burlywood;
+                position:absolute;
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                top: 50px;
+                left: 25px;
+         
+            }
+            .container{
+                width: 600px;
+                height: 200px;
+                background-color: grey;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+            }
+            .one{
+                background-color: red;
+                align-self: flex-start;
+            }
+            .two{
+                background-color: blue;
+                
+            }
+            .three{
+                background-color: chartreuse;
+                width: 100px;
+                height: 100px;
+                
+            
+            }
+            .four{
+                background-color:aqua;
+                align-self: flex-end;
+            }
+            .five{
+                background-color: green;
+               
+            }
+            .container2{
+                display: flex;
+                background-color: grey;
+                flex-direction:row-reverse;
+            }
+            .element1{
+                background-color: blue;
+            }
+            .element2{
+                background-color: rgb(255, 0, 0);
+            }
+            .element3{
+                background-color: rgb(212, 255, 0);
+                height: 100px;
+            }
+            .element4{
+                background-color: rgb(230, 0, 255);
+            }
+            .element5{
+                background-color: rgb(0, 242, 255);
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="big">
+            Big container
+        <div class="small">
+            small item
+        </div>
+    </div>
+        <div class="container">
+            <div class="one">
+                text 1
+            </div>
+            <div class="two">
+                text 2 by flex box
+            </div>
+            <div class="three" style="text-align:center;">
+                Horizontal & Vertical Alignment
+            </div>
+            <div class="four">
+                text 4
+            </div>
+            <div class="five">
+                text 5
+            </div>
+        </div>
+        <br><br>
+        <div class="container2">
+            <div class="element1">text one</div>
+            <div class="element2">text two</div>
+            <div class="element3">Flex Directional</div>
+            <div class="element4">text four</div>
+            <div class="element5">text five</div>
+        </div>
+    </body>
+</html>
